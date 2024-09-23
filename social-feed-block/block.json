@@ -1,0 +1,151 @@
+{
+	"apiVersion": "1",
+	"name": "ifb/instagram",
+	"title": "Instagram Feed",
+	"description": "Display Instagram feed in you page.",
+	"category": "widgets",
+	"keywords": [
+		"instagram feed",
+		"instagram",
+		"feed"
+	],
+	"textdomain": "instagram-feed",
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": ""
+		},
+		"cId": {
+			"type": "string",
+			"default": ""
+		},
+		"accessToken": {
+			"type": "array",
+			"default": [
+				""
+			]
+		},
+		"cacheTime": {
+			"type": "number",
+			"default": 30
+		},
+		"cacheTimePeriod": {
+			"type": "string",
+			"default": "minutes"
+		},
+		"itemVisible": {
+			"type": "number",
+			"default": 12
+		},
+		"isProfile": {
+			"type": "boolean",
+			"default": true
+		},
+		"profileImg": {
+			"type": "string",
+			"default": "https://i.ibb.co/9pfnwXH/bplugins-logo.png"
+		},
+		"isFollowBtn": {
+			"type": "boolean",
+			"default": true
+		},
+		"isLink": {
+			"type": "boolean",
+			"default": true
+		},
+		"isLinkNewTab": {
+			"type": "boolean",
+			"default": true
+		},
+		"isCaption": {
+			"type": "boolean",
+			"default": true
+		},
+		"captionLength": {
+			"type": "number",
+			"default": 65
+		},
+		"isLoadMore": {
+			"type": "boolean",
+			"default": true
+		},
+		"columns": {
+			"type": "object",
+			"default": {
+				"desktop": 4,
+				"tablet": 2,
+				"mobile": 1
+			}
+		},
+		"columnGap": {
+			"type": "string",
+			"default": "15px"
+		},
+		"rowGap": {
+			"type": "string",
+			"default": "15px"
+		},
+		"background": {
+			"type": "object",
+			"default": {
+				"color": "#0000"
+			}
+		},
+		"padding": {
+			"type": "object",
+			"default": {
+				"vertical": "15px",
+				"horizontal": "15px"
+			}
+		},
+		"border": {
+			"type": "object",
+			"default": {
+				"radius": "5px"
+			}
+		},
+		"imgHoverEffect": {
+			"type": "string",
+			"default": "zoomIn"
+		},
+		"captionStyle": {
+			"type": "string",
+			"default": "overlayCenter"
+		},
+		"captionBG": {
+			"type": "object",
+			"default": {
+				"color": "#0006"
+			}
+		},
+		"captionTypo": {
+			"type": "object",
+			"default": {
+				"fontSize": 22
+			}
+		},
+		"captionColor": {
+			"type": "string",
+			"default": "#fff"
+		}
+	},
+	"supports": {
+		"align": [
+			"wide",
+			"full"
+		],
+		"html": false
+	},
+	"example": {
+		"attributes": {
+			"preview": true,
+			"columns": {
+				"desktop": 1,
+				"tablet": 1,
+				"mobile": 1
+			}
+		}
+	},
+	"editorScript": "file:dist/editor.js",
+	"script": "file:dist/script.js"
+}

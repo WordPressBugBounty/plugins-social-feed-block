@@ -1,0 +1,281 @@
+# Copyright (C) 2023 bPlugins LLC
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Social Feed Block 1.0.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/social-feed-block\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-07-12T12:08:07+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: instagram-feed\n"
+
+#. Plugin Name of the plugin
+msgid "Social Feed Block"
+msgstr ""
+
+#. Description of the plugin
+msgid "Apply animation on any text."
+msgstr ""
+
+#. Author of the plugin
+msgid "bPlugins LLC"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://bplugins.com"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6385
+msgid "Minutes"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6386
+msgid "Hours"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6387
+msgid "Days"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6388
+msgid "Months"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6389
+msgid "Years"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6393
+msgid "Zoom In"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6394
+msgid "Zoom Out"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6395
+msgid "Rotate In"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6396
+msgid "Rotate Out"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6397
+msgid "Shine"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6401
+msgid "Overlay Top"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6402
+msgid "Overlay Center"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6403
+msgid "Overlay Bottom"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6407
+msgid "General"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6408
+msgid "Style"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6434
+msgid "Instagram Settings"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6435
+msgid "Access Token:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6439
+msgid "Cache Time:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6454
+msgid "Feed Settings"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6455
+msgid "Item Visible:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6461
+msgid "Show Profile"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6464
+msgid "Profile Photo:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6465
+msgid "Upload Profile Picture"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6468
+msgid "Show Follow Button"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6470
+msgid "Enable Link"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6472
+msgid "Link in New Tab"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6474
+msgid "Show Caption"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6477
+msgid "Caption length:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6481
+msgid "Show Load More"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6485
+msgid "Layout Settings"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6487
+msgid "Columns:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6492
+msgid "Column Gap:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6494
+msgid "Row Gap:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6500
+msgid "Feed"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6501
+msgid "Background:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6503
+msgid "Padding:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6505
+msgid "Border:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6509
+msgid "Image"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6511
+msgid "Hover Effect:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6518
+msgid "Caption"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6520
+msgid "Caption Style:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6528
+msgid "Background Overlay:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6530
+msgid "Typography:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6532
+msgid "Color:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:6888
+msgid "Please Insert Access Token"
+msgstr ""
+
+#: block.json
+msgctxt "block title"
+msgid "Instagram Feed"
+msgstr ""
+
+#: block.json
+msgctxt "block description"
+msgid "Display Instagram feed in you page."
+msgstr ""
+
+#: block.json
+msgctxt "block keyword"
+msgid "instagram feed"
+msgstr ""
+
+#: block.json
+msgctxt "block keyword"
+msgid "instagram"
+msgstr ""
+
+#: block.json
+msgctxt "block keyword"
+msgid "feed"
+msgstr ""
