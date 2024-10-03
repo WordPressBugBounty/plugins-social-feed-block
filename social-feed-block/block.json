@@ -19,6 +19,10 @@
 			"type": "string",
 			"default": ""
 		},
+		"accounts": {
+			"type": "array",
+			"default": []
+		},
 		"accessToken": {
 			"type": "array",
 			"default": [
@@ -37,17 +41,22 @@
 			"type": "number",
 			"default": 12
 		},
-		"isProfile": {
+		"isPopup": {
 			"type": "boolean",
-			"default": true
+			"default": false
 		},
-		"profileImg": {
-			"type": "string",
-			"default": "https://i.ibb.co/9pfnwXH/bplugins-logo.png"
-		},
-		"isFollowBtn": {
-			"type": "boolean",
-			"default": true
+		"popup": {
+			"type": "object",
+			"default": {
+				"isProfile": true,
+				"isCarousel": true,
+				"isVideo": true,
+				"isCaption": true,
+				"isLink": true,
+				"isLikeCount": true,
+				"isCommentsCount": true,
+				"isComments": true
+			}
 		},
 		"isLink": {
 			"type": "boolean",
@@ -57,9 +66,48 @@
 			"type": "boolean",
 			"default": true
 		},
+		"isProfile": {
+			"type": "boolean",
+			"default": true
+		},
+		"profileImg": {
+			"type": "string",
+			"default": "https://i.ibb.co/9pfnwXH/bplugins-logo.png"
+		},
+		"profileInfo": {
+			"type": "object",
+			"default": {
+				"isPhoto": true,
+				"photoSize": "55px",
+				"popupPhotoSize": "40px",
+				"userNameColor": "#4527a4",
+				"isFollowers": false,
+				"followersColor": "#4b4f58",
+				"isFollows": false,
+				"followsColor": "#4b4f58",
+				"isName": false,
+				"name": "",
+				"nameColor": "#333",
+				"isBio": false,
+				"bio": "",
+				"bioColor": "#4b4f58"
+			}
+		},
+		"isFollowBtn": {
+			"type": "boolean",
+			"default": true
+		},
+		"isFollowBtnInFooter": {
+			"type": "boolean",
+			"default": false
+		},
 		"isCaption": {
 			"type": "boolean",
 			"default": true
+		},
+		"isRemCaptionHash": {
+			"type": "boolean",
+			"default": false
 		},
 		"captionLength": {
 			"type": "number",
@@ -104,13 +152,23 @@
 				"radius": "5px"
 			}
 		},
+		"followBtnColors": {
+			"type": "object",
+			"default": {
+				"color": "#fff",
+				"bg": "#4527a4"
+			}
+		},
+		"followBtnHovColors": {
+			"type": "object",
+			"default": {
+				"color": "#fff",
+				"bg": "#8344c5"
+			}
+		},
 		"imgHoverEffect": {
 			"type": "string",
 			"default": "zoomIn"
-		},
-		"captionStyle": {
-			"type": "string",
-			"default": "overlayCenter"
 		},
 		"captionBG": {
 			"type": "object",
@@ -118,10 +176,18 @@
 				"color": "#0006"
 			}
 		},
+		"captionStyle": {
+			"type": "string",
+			"default": "overlayCenter"
+		},
 		"captionTypo": {
 			"type": "object",
 			"default": {
-				"fontSize": 22
+				"fontSize": {
+					"desktop": 22,
+					"tablet": 20,
+					"mobile": 18
+				}
 			}
 		},
 		"captionColor": {

@@ -1,22 +1,22 @@
-=== Social Feed - WP Social Feeds Plugin ===
-Contributors: bplugins, abuhayat, charlescormier
-Donate link: https://gum.co/wpdonate/
+=== Social Feed Block for Instagram ===
+Contributors: bplugins, abuhayat, charlescormier, btechnologies
+Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: block, instagram feed, instagram, feed, Gutenberg block
 Requires at least: 5.3+
-Tested up to: 6.6.1 
-Stable tag: 1.0.7  
+Tested up to: 6.6.2
+Stable tag: 1.0.8
 Requires PHP: 7.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Embed your Instagram feed on your website.
+Embed Instagram feed in your website.
 
 == Description ==
 
-Social Feed offers an easy embed feature that lets you add Instagram posts as a gallery on your WordPress website. You have to just enter the Instagram access token, and you are ready to go.
+Social Feed offers an easy embed feature that lets you add Instagram posts as gallery on your WordPress website. You have to just put your instagram access token, and you are ready to go.
 
 
-**[Demos](https://bblockswp.com/demo/instagram-feed)**
+**[Demos](https://bplugins.com/products/social-feed-block)**
 
 
 = Features =
@@ -24,34 +24,34 @@ Social Feed offers an easy embed feature that lets you add Instagram posts as a 
 
 
 = How to use =
-- First, install the Social Feed Block plugin
-- Add the Social Feed Block from the block category called "Widgets" in the Gutenberg editor.
-- You can change block settings from the right-side settings sidebar.
+- First install the Social Feed Block plugin
+- Add the Social Feed Block from the block category called "Widgets" in Gutenberg editor.
+- You can change block settings from the right side settings sidebar.
 - Enjoy!
 
 * For Installation help click on Installation Tab
 
 
 = Feedback =
-- Did you like this plugin? Dislike it? Have a feature request? [Please share your feedback with us](mailto:support@bplugins.com 'Send feedback')
+- Did you like this plugin? Dislike it? Do you have a feature request? [Please share your feedback with us](mailto:support@bplugins.com 'Send feedback')
 
 
 = ⭐ Check out the Parent Plugin of this plugin- =
 
-🔥 **[b Blocks](https://bblockswp.com)** – Best gutenberg blocks collections for WordPress.
+🔥 **[b Blocks](https://bblockswp.com/)** – Best gutenberg blocks collections for WordPress.
 
 
 = ⭐ Check out our other WordPress Plugins- =
 
-🔥 **[Html5 Audio Player](https://audioplayerwp.com/)** – Best audio player plugin for WordPress.
+🔥 **[Html5 Audio Player](https://bplugins.com/products/html5-audio-player)** – Best audio player plugin for WordPress.
 
-🔥 **[Html5 Video Player](https://wpvideoplayer.com/)** – Best video player plugin for WordPress.
+🔥 **[Html5 Video Player](https://bplugins.com/products/html5-video-player)** – Best video player plugin for WordPress.
 
-🔥 **[PDF Poster](http://pdfposter.com/)** – A fully-featured PDF Viewer Plugin for WordPress.
+🔥 **[PDF Poster](https://bplugins.com/products/pdf-poster)** – A fully-featured PDF Viewer Plugin for WordPress.
 
-🔥 **[StreamCast](https://wordpress.org/plugins/streamcast)** – A fully-featured Radio Player Plugin for WordPress.
+🔥 **[StreamCast](https://bplugins.com/products/streamcast-radio-player)** – A fully-featured Radio Player Plugin for WordPress.
 
-🔥 **[3D Viewer](https://3d-viewer.bplugins.com/)** – Display interactive 3D models on the webs.
+🔥 **[3D Viewer](https://bplugins.com/products/3d-viewer)** – Display interactive 3D models on the webs.
 
 
 == Installation ==
@@ -76,15 +76,15 @@ Social Feed offers an easy embed feature that lets you add Instagram posts as a 
 
 = Is Social Feed Block free? =
 
-Yes, Social Feed Block is a free Gutenberg Block plugin.
+Yes, Social Feed Block is a free Gutenberg block plugin.
 
 = Does it work with any WordPress theme? =
 
 Yes, it will work with any standard WordPress theme.
 
-= Can I change block settings? =
+= Where can I change block settings? =
 
-Yes, you can change block settings from the Gutenberg block editor's right sidebar.
+You can change block settings from the Gutenberg block editor's right sidebar.
 
 = How many times can I reuse a block? =
 
@@ -102,6 +102,9 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 
 == Changelog ==
+
+= 1.0.8 =
+* Good news! The pro features are now available on Freemius.
 
 = 1.0.7 =
 * Fix Trademark issue
@@ -127,6 +130,9 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 
 == Upgrade Notice ==
+
+= 1.0.8 =
+* Good news! The pro features are now available on Freemius.
 
 = 1.0.7 =
 * Fix Trademark issue
