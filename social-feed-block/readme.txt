@@ -16,11 +16,34 @@ Embed Instagram feed in your website.
 Social Feed offers an easy embed feature that lets you add Instagram posts as gallery on your WordPress website. You have to just put your instagram access token, and you are ready to go.
 
 
-**[Demos](https://bplugins.com/products/social-feed-block)**
+**[Demos](https://bplugins.com/products/social-feed-block/#demos)**
 
 
-= Features =
-- **Fully Customizable**: All the options you need to arrange the showcase to your liking are available here.
+### Instagram Feed Features
+- Cache time is configured
+- Set displayed items
+- Assign column, row spacing, and column spacing.
+- Open gallery item link
+- Gallery item link opens in a new tab
+- Show/hide profile
+- Adjust profile picture size.
+- Show/Hide, Load More, Caption and Follow buttons
+- A change to the background color
+- Define borders and padding.
+- Set image effects rotate in, rotate out, shine and zoom in, zoom out
+
+
+### Instagram Feed Features Pro
+- Show feed details in the popup modal.
+- Show Name in profile area.
+- Show Biography in profile area.
+- Set Follow button in footer area.
+- Set different Profile Photo size in popup area.
+- Remove Caption hashtag
+- Change username color
+- Change name color
+- Change biography color
+- Colors set follow button
 
 
 = How to use =
